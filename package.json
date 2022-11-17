@@ -1,0 +1,28 @@
+{
+  "name": "logger-pm2",
+  "version": "1.0.0",
+  "description": "logger for log4js and support pm2 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drunken005/logger-pm2.git"
+  },
+  "keywords": [
+    "log4js",
+    "logger",
+    "pm2"
+  ],
+  "author": "drunken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drunken005/logger-pm2/issues"
+  },
+  "homepage": "https://github.com/drunken005/logger-pm2#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "log4js": "^6.7.0"
+  }
+}
