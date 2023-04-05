@@ -1,6 +1,6 @@
 {
   "name": "logger-pm2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "logger for log4js and support pm2 ",
   "main": "index.js",
   "scripts": {
