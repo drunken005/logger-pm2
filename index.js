@@ -92,6 +92,15 @@ const initImp = (logger) => {
         let _msg = formatMsg(msg);
         imp.access.info(`${"-".repeat(20)}=${_msg}`);
     };
+
+    imp.proxyIn           = (msg) => {
+        let _msg = formatMsg(msg);
+        imp.access.info(`${">".repeat(20)}=${_msg}`);
+    };
+    imp.proxyOut          = (msg) => {
+        let _msg = formatMsg(msg);
+        imp.access.info(`${"<".repeat(20)}=${_msg}`);
+    };
     imp.alarm        = (msg) => {
         let _msg = formatMsg(msg);
         imp.alarms.info(`${_msg}`);
